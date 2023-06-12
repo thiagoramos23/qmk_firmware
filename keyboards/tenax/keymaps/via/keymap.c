@@ -27,8 +27,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       */
     [_BASE] = LAYOUT_split_3x5_3(
         KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,                               KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
-        KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                               KC_H,    KC_J,    KC_K,    KC_L,    KC_QUOTE,
-        MT(MOD_LCTL, KC_Z),    MT(MOD_LALT, KC_X),    KC_C,    KC_V,    KC_B,       KC_N,    LT(2, KC_M),    KC_COMM, KC_DOT,  MT(MOD_RSFT, KC_SLSH),
+        KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                               KC_H,    KC_J,    KC_K,    KC_L,    MT(MOD_LALT, KC_QUOTE),
+        MT(MOD_LCTL, KC_Z), KC_X,    KC_C,    KC_V,    KC_B,       KC_N,    LT(2, KC_M),    KC_COMM, KC_DOT,  MT(MOD_RSFT, KC_SLSH),
                             KC_TAB, KC_LSFT, MT(MOD_LGUI, KC_ENT),           LT(1, KC_SPC), KC_BSPC, KC_ESC
     ),
      /*
@@ -61,7 +61,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       */
 
     [_NUMBER] = LAYOUT_split_3x5_3(
-        M_LOGIN,    KC_7,    KC_8,    KC_9,    KC_0,                               KC_HOME,    KC_PAGE_DOWN,    KC_PAGE_UP,    KC_END,    KC_NO,
+        M_LOGIN,    KC_7,    KC_8,    KC_9,    KC_0,                               KC_HOME,    KC_PAGE_DOWN,    KC_PAGE_UP,    KC_END,    KC_EQUAL,
         M_VIM_SAVE,    KC_4,    KC_5,    KC_6,    KC_NO,                           KC_LEFT,    KC_DOWN,    KC_UP,    KC_RIGHT,    M_VIM_QUIT,
         KC_LSFT,    KC_1,    KC_2,    KC_3,    KC_NO,                              KC_NO,    KC_NO,    KC_NO, KC_NO,  KC_NO,
                             KC_TAB, KC_LSFT, MT(MOD_LGUI, KC_ENT),           KC_SPC, KC_BSPC, KC_ESC
