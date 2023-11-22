@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_HASH,    KC_SEMICOLON,    KC_LEFT_PAREN,    KC_RIGHT_PAREN,    KC_DOUBLE_QUOTE,                 KC_MPLY,    KC_MEDIA_STOP,    KC_VOLU,    KC_VOLD,   KC_NO ,
         KC_PIPE,    KC_RIGHT_ANGLE_BRACKET,    KC_LEFT_BRACKET,    KC_RIGHT_BRACKET,    KC_COLON,                KC_NO,    KC_NO,    KC_GRAVE,    KC_BACKSLASH,    KC_NO,
         KC_LSFT,    KC_PERCENT,    KC_MINUS,    KC_UNDERSCORE,    KC_EQUAL,                                KC_WBAK,    KC_WREF,    KC_WFWD, KC_NO,  KC_NO,
-                                    KC_TAB, KC_LSFT, MT(MOD_LGUI, KC_ENT),                                         KC_SPC, KC_BSPC, KC_ESC
+                                    KC_ESC, KC_LSFT, MT(MOD_LGUI, KC_ENT),                                         KC_SPC, KC_BSPC, KC_TAB
     )
 };
 

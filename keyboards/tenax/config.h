@@ -5,6 +5,8 @@
 
 #include "config_common.h"
 
+#define MASTER_RIGHT
+
 /* key matrix size */
 #define MATRIX_ROWS 8
 #define MATRIX_COLS 5
